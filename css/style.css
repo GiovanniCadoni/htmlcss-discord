@@ -23,8 +23,6 @@ a{
 .container{
     width: 80%;
     margin: 0 auto;
-    /*Debug*/
-    border: 2px dashed black;
 }
 
 .flex-container{
@@ -74,10 +72,15 @@ a{
     text-align: center;
 }
 
+.purple{
+    color: rgb(114 137 218);
+}
+
 /*HEADER*/
 
 .header-top{
     height: 50px;
+    padding-top: 10px;
     display: flex;
     align-items: center;
     background-color:rgb(37 94 233);
@@ -140,7 +143,7 @@ a{
 }
 
 .background-grey{
-    background-color: rgb(246 246 246);
+    background-color: #f6f6f6;
 }
 
 .row{
@@ -186,38 +189,31 @@ a{
 /*FOOTER*/
 
 footer{
-    padding-top: 10px;
-    /*Debug*/
-    background-color: black;
+    padding-top: 40px;
+    background-color: hsl(205.71deg 9.09% 15.1%);
 }
 
 .main-column{
     width: 30%;
-    /*Debug*/
-    background-color: palevioletred;
-    min-height: 300px;
-    border: 2px dashed red;
+    padding: 20px 0;
 }
 
 .menu-column{
     width: 70%;
     display: flex;
-    /*Debug*/
-    background-color:cyan;
-    min-height: 300px;
 }
 
 .footer-menu{
     width: calc(100% / 4);
-    /*Debug*/
-    border: 2px dashed red;
-    min-height: 300px;
+    padding: 20px 0;
 }
 
 .line-break{
+    background-color:rgb(114 137 218);
     display: inline-block;
-    width: 100%;
-    margin: 20px 0;
+    width: 80%;
+    border: 1px solid  rgb(114 137 218);
+    margin: 0 10%;
 }
 
 .footer-bottom{
@@ -226,14 +222,36 @@ footer{
  
 .footer-bottom .container{
      padding: 10px 0;
-     /*Debug*/
-     background-color: cyan;
-     border: 2px dashed red;
 }
 
 .footer-icon{
     padding: 5px;
-    /*Debug*/
-    background-color: palevioletred;
-    border: 2px dashed black;
+}
+
+.footer-top .text-big{
+    color: rgb(114 137 218);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.footer-top .text-small{
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.flag{
+    max-width: 30px;
+}
+
+.footer-menu .text-small{
+    padding-top: 0;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.text-small.purple{
+    color: rgb(114 137 218);
 }
