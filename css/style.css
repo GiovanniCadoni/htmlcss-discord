@@ -10,9 +10,15 @@ img{
 
 body{
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 /*COMMON*/
+
+a{
+    text-decoration: none;
+    color: white;
+}
 
 .container{
     width: 80%;
@@ -29,29 +35,26 @@ body{
     justify-content: space-between;
 }
 
+.align-items-center{
+    align-items: center;
+}
+
 /*HEADER*/
 
 .header-top{
     height: 50px;
     display: flex;
     align-items: center;
-    /*Debug*/
-    background-color:lightskyblue;
+    background-color:rgb(37 94 233);
 }
 
 .header-logo,
 .header-actions{
     width: 20%;
-    /*Debug*/
-    border: 2px dashed red;
-    background-color: orange;
 }
 
 .header-nav{
     flex-grow: 1;
-    /*Debug*/
-    border: 2px dashed red;
-    background-color: orange;
 }
 
 .header-nav ul{
@@ -61,11 +64,22 @@ body{
 }
 
 .header-nav li{
-    margin: 0 0.5rem;
+    margin: 0 0.7rem;
 }
 
 .header-actions{
    text-align: right;
+}
+
+.button-login{
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.img-logo{
+    margin-top: 6px;
 }
 
 .hero{
