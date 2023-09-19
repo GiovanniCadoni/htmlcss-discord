@@ -122,17 +122,16 @@ a{
     font-size: 1.4rem;
     margin-top: 40px;
     margin-bottom: 30px;
-
 }
 
 /*MAIN*/
 
 .main-section{
-    padding: 40px 0;    
+    padding: 60px 0;    
 }
 
 .background-grey{
-    background-color: lightgray;
+    background-color: rgb(246 246 246);
 }
 
 .row{
@@ -141,24 +140,27 @@ a{
 
 .column-large{
     width: 65%;
-    /*Debug*/
-    background-color:deepskyblue;
-    min-height: 300px;
-    border: 2px dashed red;
 }
 
 .column-small{
     width: 35%;
-    /*Debug*/
-    background-color: pink;
-    min-height: 300px;
-    border: 2px dashed red;
 }
 
 .main-section .content{
     /*Debug*/
     background-color: green;
     min-height: 400px;
+}
+
+.text-big{
+    color: black;
+    font-size: 3rem;
+}
+
+.text-small{
+    color: black;
+    padding-top: 35px;
+    font-size: 1.4rem;
 }
 
 /*FOOTER*/
