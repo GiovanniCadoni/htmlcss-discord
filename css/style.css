@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*COMMON*/
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    /*Debug*/
+    border: 2px dashed black;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+/*HEADER*/
+
+.header-top{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /*Debug*/
+    background-color:lightskyblue;
+}
+
+.header-logo,
+.header-actions{
+    width: 20%;
+    /*Debug*/
+    border: 2px dashed red;
+    background-color: orange;
+}
+
+.header-nav{
+    flex-grow: 1;
+    /*Debug*/
+    border: 2px dashed red;
+    background-color: orange;
+}
+
+.header-nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.header-nav li{
+    margin: 0 0.5rem;
+}
+
+.header-actions{
+   text-align: right;
+}
+
+.hero{
+    /*Debug*/
+    background-color: darkblue;
+    color: white;
+    padding: 40px 0;
+} 
+
+.hero-content{
+    width: 60%;
+    margin: 0 auto;
+    /*Debug*/
+    background-color: violet;
+    min-height: 200px;
+    border: 2px dashed black;
+}
+
+/*MAIN*/
+
+.main-section{
+    padding: 40px 0;    
+}
+
+.background-grey{
+    background-color: lightgray;
+}
+
+.row{
+    display: flex;
+}
+
+.column-large{
+    width: 65%;
+    /*Debug*/
+    background-color:deepskyblue;
+    min-height: 300px;
+    border: 2px dashed red;
+}
+
+.column-small{
+    width: 35%;
+    /*Debug*/
+    background-color: pink;
+    min-height: 300px;
+    border: 2px dashed red;
+}
+
+.main-section .content{
+    /*Debug*/
+    background-color: green;
+    min-height: 400px;
+}
+
+/*FOOTER*/
+
+footer{
+    padding-top: 10px;
+    /*Debug*/
+    background-color: black;
+}
+
+.main-column{
+    width: 30%;
+    /*Debug*/
+    background-color: palevioletred;
+    min-height: 300px;
+    border: 2px dashed red;
+}
+
+.menu-column{
+    width: 70%;
+    display: flex;
+    /*Debug*/
+    background-color:cyan;
+    min-height: 300px;
+}
+
+.footer-menu{
+    width: calc(100% / 4);
+    /*Debug*/
+    border: 2px dashed red;
+    min-height: 300px;
+}
+
+.line-break{
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.footer-bottom{
+    padding-bottom: 2px;
+}
+ 
+.footer-bottom .container{
+     padding: 10px 0;
+     /*Debug*/
+     background-color: cyan;
+     border: 2px dashed red;
+}
+
+.footer-icon{
+    padding: 5px;
+    /*Debug*/
+    background-color: palevioletred;
+    border: 2px dashed black;
+}
