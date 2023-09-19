@@ -54,6 +54,11 @@ a{
     color: white;
 }
 
+.background-light{
+    background-color: rgb(114 137 218);
+    color:white
+}
+
 .large{
     font-size: 1.3rem;
     padding: 15px;
@@ -63,6 +68,10 @@ a{
 
 .arrow-down{
     font-size: 30px;
+}
+
+.text-align{
+    text-align: center;
 }
 
 /*HEADER*/
@@ -147,9 +156,7 @@ a{
 }
 
 .main-section .content{
-    /*Debug*/
-    background-color: green;
-    min-height: 400px;
+    margin: 15px 0;
 }
 
 .text-big{
@@ -161,6 +168,19 @@ a{
     color: black;
     padding-top: 35px;
     font-size: 1.4rem;
+}
+
+.adventure{
+    margin: 0 auto;
+    width: 40%;
+    min-height: 4rem;
+    font-size: 1.6rem;
+    font-weight:bold;
+    color: black;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    margin-bottom: 20px;
+    padding: 10px 0;
 }
 
 /*FOOTER*/
